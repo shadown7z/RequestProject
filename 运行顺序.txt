@@ -1,0 +1,4 @@
+1.先运行server.py服务器，
+2.再运行fetch_data.py抓取内容，生成一个devicde_logs.csv，
+3.之后再运行generate_report.py，把抓取到的内容转到生成的专家报告里`系统诊断报告.html`
+4.在`系统诊断报告`的html页面里，上面有个下载.pdf按钮
