@@ -1,5 +1,6 @@
 ## 一个小型的数据爬取+数据提取+数据报告
 **各文件作用：**
+`requirements.txt`是需要安装的python库，直接使用`pip install -r requirements.txt`文件安装所有所需的python库
 
 `/dist/gui_app.exe`是GUI的.exe启动文件（推荐）,导出的诊断文件为`一键诊断报告.html`
 
