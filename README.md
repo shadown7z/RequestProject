@@ -1,4 +1,21 @@
 ## 一个小型的数据爬取+数据提取+数据报告
+**各文件作用：**
+
+`/dist/gui_app.exe`是GUI的.exe启动文件（推荐）,导出的诊断文件为`一键诊断报告.html`
+
+`build_exe.py`创建.exe文件,`python build_exe.py`启动它，用于将.py变成.exe启动文件
+
+`web_ui.py`文件,`streamlit run web_ui.py`运行WebUI
+
+`gui_app.py`文件，通过`python gui_app.py`命令启动,页面为GUI
+
+`server.py`，启动一个随机温湿度数的API接口
+
+`fetch_data.py`，抓取API接口的温湿度数据
+
+`generate_report.py`，生成专家报告
+
+
 **运行顺序：**
 
 1.先运行`server.py`服务器，
